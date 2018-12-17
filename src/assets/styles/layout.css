@@ -1,5 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-
 @charset "utf-8";
 /*
 Template Name: Overerts
@@ -10,9 +8,9 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Layout CSS
 */
 
-@import url("assets/styles/fontawesome-4.6.3.min.css");
-@import url("assets/styles/custom.flexslider.css");
-@import url("assets/styles/framework.css");
+@import url("fontawesome-4.6.3.min.css");
+@import url("custom.flexslider.css");
+@import url("framework.css");
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -34,9 +32,9 @@ File: Layout CSS
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{
-  padding:150px 0;
-  padding-top: 30px;
-  padding-bottom: 70px;
+	padding:150px 0;
+	padding-top: 30px;
+	padding-bottom: 70px;
 
 }
 
@@ -331,59 +329,59 @@ table a, #comments a{background-color:inherit;}
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:978px){
-  .hoc{max-width:978px;}
+	.hoc{max-width:978px;}
 }
 
 
 /* Mobile Devices
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:900px){
-  .hoc{max-width:90%;}
+	.hoc{max-width:90%;}
 
-  #header{padding:30px 0 15px;}
-  #header #logo{margin:0;}
+	#header{padding:30px 0 15px;}
+	#header #logo{margin:0;}
 
-  #mainav{}
-  #mainav ul{display:none;}
-  #mainav form{display:block;}
+	#mainav{}
+	#mainav ul{display:none;}
+	#mainav form{display:block;}
 
-  #breadcrumb{}
+	#breadcrumb{}
 
-  .container{}
-  #comments input[type="reset"]{margin-top:10px;}
-  .pagination li{display:inline-block; margin:0 5px 5px 0;}
+	.container{}
+	#comments input[type="reset"]{margin-top:10px;}
+	.pagination li{display:inline-block; margin:0 5px 5px 0;}
 
-  #footer{}
+	#footer{}
 
-  #copyright{}
-  #copyright p:first-of-type{margin-bottom:10px;}
+	#copyright{}
+	#copyright p:first-of-type{margin-bottom:10px;}
 }
 
 
 @media screen and (max-width:750px){
-  .imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
-  .fl_left, .fl_right{display:block; float:none;}
-  .one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
+	.fl_left, .fl_right{display:block; float:none;}
+	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
 
-  #header{text-align:center;}
-  #header #logo{margin-bottom:15px;}
+	#header{text-align:center;}
+	#header #logo{margin-bottom:15px;}
 }
 
 
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:650px){
-  .scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
-  .scrollable table{margin:0; padding:0; white-space:nowrap;}
+	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
+	.scrollable table{margin:0; padding:0; white-space:nowrap;}
 
-  .inline li{display:block; margin-bottom:10px;}
-  .pushright li{margin-right:0;}
+	.inline li{display:block; margin-bottom:10px;}
+	.pushright li{margin-right:0;}
 
-  .font-x2{font-size:1.4rem;}
-  .font-x3{font-size:1.6rem;}
+	.font-x2{font-size:1.4rem;}
+	.font-x3{font-size:1.6rem;}
 
-  #pageintro li article{max-width:none; width:100%;}
-  #pageintro li .heading{font-size:2rem;}
+	#pageintro li article{max-width:none; width:100%;}
+	#pageintro li .heading{font-size:2rem;}
 }
 
 
